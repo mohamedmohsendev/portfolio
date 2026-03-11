@@ -35,7 +35,7 @@ export default function ProjectsSection({
       image: "/Logo.webp",
       tech: ["React.js", "Node.js", "Supabase/DB", "Tailwind CSS", "Framer Motion"],
       githubLink: "https://github.com/mohamedmohsendev/lelan-perfume",
-      demo: "https://lalen-perfume.vercel.app/",
+      demo: "https://lelan-perfume.vercel.app/",
       featured: true,
     },
     {
