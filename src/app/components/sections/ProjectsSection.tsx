@@ -29,6 +29,16 @@ export default function ProjectsSection({
   const projects: Project[] = [
 
     {
+      title: "LALEN Perfumes (Full Stack)",
+      description:
+        "A powerful Full-Stack E-commerce platform for a luxury fragrance boutique. Integrated with a real-time database, robust backend logic, and an advanced admin panel for product and order management. Features a premium UI with high-performance optimization.",
+      image: "/Logo.webp",
+      tech: ["React.js", "Node.js", "Supabase/DB", "Tailwind CSS", "Framer Motion"],
+      githubLink: "https://github.com/mohamedmohsendev/lelan-perfume",
+      demo: "https://lalen-perfume.vercel.app/",
+      featured: true,
+    },
+    {
       title: "Rayyan Web Application",
       description:
         "Developed a modular SPA using React Hooks and TypeScript with a Mobile-First responsive UI. Integrated backend REST APIs with structured loading states.",
@@ -42,7 +52,7 @@ export default function ProjectsSection({
       title: "Education School",
       description:
         "A modern education platform built with React, designed to showcase online courses and learning programs through a clean and responsive interface.",
-      image: "/Education.png", // Waiting for image
+      image: "/Education.png",
       tech: ["React.js", "TypeScript", "Tailwind", "HTML"],
       githubLink: "https://github.com/mohamedmohsendev/School-Education",
       demo: "https://school-education-xi.vercel.app/",
